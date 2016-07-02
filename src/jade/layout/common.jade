@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+    - var baseurl = debug ? "" : "./"
+    head
+        title 朱辉
+        meta(name="viewport", content="")
+        meta(charset="utf-8")
+        meta(http-equiv="content-type", content="text/html;charset=UTF-8")
+        meta(name="author", content="somonus")
+        meta(name="email", conen="guiqi.zh@gmail.com")
+        link(rel="icon", href="./favicon.png")
+        link(rel="stylesheet", href="#{baseurl}/asset/fancy.css")
+        link(rel="stylesheet", href="#{baseurl}/asset/font-awesome/css/font-awesome.min.css")
+        link(rel="stylesheet", href="#{baseurl}/css/index.css")
+        script.
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-65053446-2', 'auto');
+            ga('send', 'pageview');
+    body
+        block content
+        script.
+            debug = #{debug};
+        script(src="#{baseurl}/asset/fancy.js")
+        script(src="#{baseurl}/js/seed.js")
+        script.
+            $(document).ready(function(){
+                require(['js/index'], function(Index){
+                    Index.init();
+                });
+            })
