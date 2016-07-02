@@ -7,7 +7,7 @@
       init: function() {
         var animation, cate, category, experience, i, len, pathStyle, results, textStyle, timeline;
         timeline = new Raphael(document.getElementById("experienceTimeLine"), 900, 600);
-        experience = [[200, 15, "#97BE0D", "2009.09 - 2013.07，武汉", "华中科技大学 本科", "自动化"], [300, 15, "#88B8E6", "2013.11 - 2014.08，上海", "最搭配", "前端开发工程师"], [400, 15, "#88B8E6", "2014.08 - 至今，阿里巴巴", "前端开发工程师", ""]];
+        experience = [[200, 15, "#97BE0D", "2009.09 - 2013.07，武汉", "华中科技大学 本科", "自动化"], [300, 15, "#88B8E6", "2013.11 - 2014.08，上海", "最搭配", "前端开发工程师"], [400, 15, "#88B8E6", "2014.08 - 至今，杭州", "阿里巴巴", "前端开发工程师"]];
         category = [["#97BE0D", 400, "学习"], ["#88B8E6", 530, "工作经历"]];
         pathStyle = {
           "fill": "none",
