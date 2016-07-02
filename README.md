@@ -104,7 +104,7 @@
 * 开发最搭配整个网站。
 * 技术栈为 grunt + seajs + jquery。
 
-## Contact
+## 联系方式
 
 ---
 
