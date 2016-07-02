@@ -54,7 +54,7 @@
           }
           return results;
         };
-        timeline.text(0, 95, "1987年7月，出生").attr(textStyle);
+        timeline.text(0, 95, "1991年6月，出生").attr(textStyle);
         timeline.path("M 130 95 L 170 95 176 95 182 95 188 95 260 95 300 95 385 95").attr(pathStyle).animate({
           path: "M 130 95 L 170 95 176 88 182 105 188 95 260 95 300 130 385 45"
         }, 1e3, "bounce", animation);
