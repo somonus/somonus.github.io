@@ -20,18 +20,51 @@ block content
         .intro-wrap
             h1 我的技能
             .content
-                p 主要技能点有数据可视化，前端，nodejs后端，ios客户端
+                p 主要技能点有数据可视化，前端，nodejs后端，APP客户端，3D渲染
         .skill-wrap.clearfix.container(init="false")
             .legend
                 ul.skillsList
+                    li: button.btn(style="background:#998566;") 3D
                     li: button.btn(style="background:#88B8E6;") Common
-                    li: button.btn(style="background:#97BE0D;") IOS
+                    li: button.btn(style="background:#97BE0D;") APP
                     li: button.btn(style="background:#D84F5F;") FE-Basic
                     li: button.btn(style="background:#998566;") FE-Advanced
             #skillChart
     #fourth-page.clearfix
         .intro-wrap.container
             h1 我的项目
+            table.projectTable
+                th(colspan="2")
+                    i.fa.fa-archive
+                    strong AR SDK
+                tr: td.projectTd
+                    i.fa.fa-star
+                    !=' AR SDK主要分为两个部分，跟踪和渲染。我负责AR SDK中渲染部分工作。'
+                tr: td.projectTd
+                    i.fa.fa-star
+                    !=' 底层使用OpenGL封装一个轻量级渲染引擎，打包后大小200k，能够渲染视频和图片。'
+                tr: td.projectTd
+                    i.fa.fa-star
+                    !=' 借助assimp解析3d模型，结合自己封装的渲染引擎，能够渲染常见格式的3d模型，并支持骨骼动画。'
+                tr: td.projectTd
+                    i.fa.fa-star
+                    !=' 技术栈：OpenGL + assimp + c++'
+            table.projectTable
+                th(colspan="2")
+                    i.fa.fa-archive
+                    strong 阿里小朋
+                tr: td.projectTd
+                    i.fa.fa-star
+                    !=' 使用封装的DARN框架开发阿里小朋APP，底层为react-native。'
+                tr: td.projectTd
+                    i.fa.fa-star
+                    !=' 封装声波配网及wifi配网等需要跟硬件配合的组件，并暴露接口给react-native使用。'
+                tr: td.projectTd
+                    i.fa.fa-star
+                    !=' 封装react-native-router用于在react-native场景替代react-router。使用方式与react-router保持基本一致。'
+                tr: td.projectTd
+                    i.fa.fa-star
+                    !=' 技术栈：react-native + redux + redux-saga + reselect + java + object-c + c++'
             table.projectTable
                 th(colspan="2")
                     i.fa.fa-archive

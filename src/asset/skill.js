@@ -94,7 +94,7 @@ define(function(require, module, exports) {
             color: "#88B8E6"
         },
         {
-            kind: "IOS",
+            kind: "APP",
             score: "65",
             color: "#97BE0D"
         },
@@ -107,6 +107,11 @@ define(function(require, module, exports) {
             kind: "FE-Advanced",
             score: "80",
             color: "#998566"
+        },
+        {
+            kind: "3D",
+            score: "80",
+            color: "#998566"
         }],
         h = e.set(),
         p = {
@@ -115,7 +120,7 @@ define(function(require, module, exports) {
                 [200, "c"],
                 [300, "Markdown"]
             ],
-            "arc-ios": [
+            "arc-app": [
                 [320, "object-c"],
                 [340, "react-native"],
                 [320, "cocoapods"]
@@ -137,6 +142,13 @@ define(function(require, module, exports) {
                 [340, "css-module"],
                 [320, "echarts/zrender"],
                 [320, "Redux"]
+            ],
+            "arc-3d": [
+                [300, "OpenGL"],
+                [300, "webgl"],
+                [150, "c++"],
+                [100, "unity3d"],
+                [100, "unreal"]
             ]
         },
         d = 30,

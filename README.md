@@ -27,6 +27,20 @@
 
 ---
 
+### AR SDK
+
+*   AR SDK主要分为两个部分，跟踪和渲染。我负责AR SDK中渲染部分工作。
+*   底层使用OpenGL封装一个轻量级渲染引擎，打包后大小200k，能够渲染视频和图片。
+*   借助assimp解析3d模型，结合自己封装的渲染引擎，能够渲染常见格式的3d模型，并支持骨骼动画。
+*   技术栈：OpenGL + assimp + c++
+
+### 阿里小朋
+
+*   使用封装的DARN框架开发阿里小朋APP，底层为react-native。
+*   封装声波配网及wifi配网等需要跟硬件配合的组件，并暴露接口给react-native使用。
+*   封装react-native-router用于在react-native场景替代react-router。使用方式与react-router保持基本一致。
+*   技术栈：react-native + redux + redux-saga + reselect + java + object-c + c++
+
 ### 知识图谱可视化
 
 *   对巨量数据进行可视化展示，对知识图谱的实体和关系进行合理描述。
