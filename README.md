@@ -1,6 +1,6 @@
-#个人简历
+# 个人简历
 
-##个人技能
+## 个人技能
 * ES5,CoffeeScript, ES6,  react,  redux, react-native, angular, polymer
 * d3, echarts, zrender, canvas, svg
 * chrome插件
@@ -9,7 +9,7 @@
 * grunt, gulp, Yoeman, webpack
 * object-c, c
 
-##学习工作经历
+## 学习工作经历
 
 ---
 
