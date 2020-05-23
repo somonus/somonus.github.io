@@ -1,12 +1,14 @@
 # 个人简历
 
 ## 个人技能
-* ES5,CoffeeScript, ES6,  react,  redux, react-native, angular, polymer
+
+* ES5, ES6, TypeScript, react,  redux, react-native, rax
+* openGL, webGL
 * d3, echarts, zrender, canvas, svg
 * chrome插件
 * css, css3,  sass, less, css-modules, postcss
-* nodejs, koa, express, mongodb
-* grunt, gulp, Yoeman, webpack
+* nodejs, serverless, egg, koa, express, mongodb
+* webpack, grunt, gulp, Yoeman
 * object-c, c
 
 ## 学习工作经历
@@ -40,6 +42,7 @@
 ### 天猫精灵node server
 
 *   推动天猫精灵微服务架构，使用nodejs作为BFF层为前端及客户端封装业务接口。
+*   在天猫精灵业务中实现并落地node版本serverless。
 *   推出UI 中心，对天猫精灵带屏设备语音链路的UI相关逻辑做处理，对于不同的语音指令返回不同的UI内容展示。
 
 ## 项目经历(2017)
@@ -128,12 +131,12 @@
 
 ## 项目经历(2013)
 
-###服装搭配编辑器
+### 服装搭配编辑器
 
 * 开发服装搭配编辑器，用户可在网站对服装图片进行编辑，包括裁剪，旋转，拖动，改变层级等。
 * 编辑好之后可生成一张新的图片。
 
-###最搭配网站
+### 最搭配网站
 
 * 开发最搭配整个网站。
 * 技术栈为 grunt + seajs + jquery。
@@ -142,6 +145,7 @@
 
 ---
 
+*     Telephone: 18158516652
 *     Email: guiqi.zh@gmail.com
 *     Github: https://github.com/somonus
 
