@@ -145,7 +145,6 @@
 
 ---
 
-*     Telephone: 18158516652
 *     Email: guiqi.zh@gmail.com
 *     Github: https://github.com/somonus
 
